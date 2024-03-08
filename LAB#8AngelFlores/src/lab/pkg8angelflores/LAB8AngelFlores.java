@@ -9,6 +9,12 @@ public class LAB8AngelFlores {
     }
 
     public static void play() {
+        String nombre = "atreidis";
+        int recursos = 300, dinero = 300, defensas = 300;
+        String nombre2 = "Harkonen";
+        Stirng nombre = ""
+        int recursos = 300, dinero = 300, defensas = 300;
+
         Scanner entrada = new Scanner(System.in);
         System.out.println("Reursos de Guerra:" + 200);
         System.out.println("Cantidad de dinero:" + 300);
@@ -22,23 +28,27 @@ public class LAB8AngelFlores {
         System.out.println("5) estadisticas estadisticas de casa HARKONNEN");
         System.out.println("6) Ataque a las Grandes casas");
         int op = entrada.nextInt();
-         switch (op) {
+        switch (op) {
             case 1: {
-                
-               break;   
-            } case 2:{
+
                 break;
-            }case 3:{
+            }
+            case 2: {
                 break;
-            }case 4:{
+            }
+            case 3: {
                 break;
-            }case 5:{
+            }
+            case 4: {
                 break;
-            }case 6:{
+            }
+            case 5: {
+                break;
+            }
+            case 6: {
                 break;
             }
 
-               
             default:
                 throw new AssertionError();
         }
